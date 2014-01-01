@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quicksub</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_new_sub1">Size</string>
+    <string name="title_activity_new_sub2">Bread</string>
+    <string name="title_activity_new_sub3">Cheese</string>
+    <string name="title_activity_new_sub4">Meat</string>
+    <string name="title_activity_new_sub5">Veggies</string>
+    <string name="title_activity_new_sub6">Condiments</string>
+    <string name="title_activity_new_sub7">Extras</string>
+    <string name="title_activity_new_sub8">Order Complete</string>
+    <string name="title_activity_combine_order">Combine Order</string>
+    <string name="title_activity_saved_subs">Saved Orders</string>
+    <string name="title_activity_save_sub">Save Order</string>
+
+    <!-- Order Components -->
+    <string name="option_size">Size</string>
+    <string name="option_bread">Bread</string>
+    <string name="option_cheese">Cheese</string>
+    <string name="option_meat">Meat</string>
+    <string name="option_veggies">Veggies</string>
+    <string name="option_condiments">Condiments</string>
+    <string name="option_extras">Extras</string>
+    <string name="option_complete">Complete Order</string>
+
+    <!-- Size/Toasted -->
+    <string name="half">Half</string>
+    <string name="whole">Whole</string>
+    <string name="toasted">Toasted</string>
+
+    <!-- Bread -->
+    <string name="bread1">Italian</string>
+    <string name="bread2">9-Grain Wheat</string>
+    <string name="bread3">Honey Oat</string>
+    <string name="bread4">Monterey Cheddar</string>
+    <string name="bread5">Italian Herbs and Cheese</string>
+    <string name="bread6">Roasted Garlic</string>
+    <string name="bread7">Flatbread</string>
+
+    <!-- Cheese -->
+    <string name="cheese1">American</string>
+    <string name="cheese2">Cheddar</string>
+    <string name="cheese3">Pepperjack</string>
+    <string name="cheese4">Mozzarella</string>
+    <string name="cheese5">Provolone</string>
+    <string name="cheese6">Swiss</string>
+
+    <!-- Meat -->
+    <string name="meat1">Chicken</string>
+    <string name="meat2">Ham</string>
+    <string name="meat3">Cold Cuts</string>
+    <string name="meat4">Meatballs</string>
+    <string name="meat5">Roast Beef</string>
+    <string name="meat6">Steak</string>
+    <string name="meat7">Tuna</string>
+    <string name="meat8">Turkey</string>
+
+    <!-- Condiments -->
+    <string name="condiments1">Bacon</string>
+    <string name="condiments2">Buffalo Sauce</string>
+    <string name="condiments3">Chipotle Southwest Sauce</string>
+    <string name="condiments4">Honey Mustard</string>
+    <string name="condiments5">Light Mayo</string>
+    <string name="condiments6">Mayo</string>
+    <string name="condiments7">Mustard</string>
+    <string name="condiments8">Olive Oil</string>
+    <string name="condiments9">Ranch</string>
+    <string name="condiments10">Vinegar</string>
+    <string name="condiments11">Salt</string>
+    <string name="condiments12">Pepper</string>
+
+    <!-- Extras -->
+    <string name="extras1">Chips</string>
+    <string name="extras2">Cookie</string>
+    <string name="extras3">Drink</string>
+
+    <!-- Veggies -->
+    <string name="veg1">Avocado</string>
+    <string name="veg2">Banana Pepper</string>
+    <string name="veg3">Cucumber</string>
+    <string name="veg4">Green Pepper</string>
+    <string name="veg5">Jalapeño</string>
+    <string name="veg6">Lettuce</string>
+    <string name="veg7">Onion</string>
+    <string name="veg8">Olive</string>
+    <string name="veg9">Pickle</string>
+    <string name="veg10">Spinach</string>
+    <string name="veg11">Tomato</string>
+
+    <!-- ContextMenu -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="combine">Combine</string>
+    <string name="rename">Rename</string>
+    <string name="favorite">Make Favorite</string>
+</resources>

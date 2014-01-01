@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/editOrder"
+          android:title="@string/edit"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/deleteOrder"
+          android:title="@string/delete"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/combineOrder"
+          android:title="@string/combine"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/renameOrder"
+          android:title="@string/rename"
+          android:showAsAction="never" />
+
+    <item android:id="@+id/makeFavorite"
+          android:title="@string/favorite"
+          android:showAsAction="never" />
+</menu>

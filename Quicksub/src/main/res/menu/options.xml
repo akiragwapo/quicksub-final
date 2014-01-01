@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/next"
+          android:title="Next"
+          android:showAsAction="always" />
+
+    <group android:id="@+id/action_menu" >
+
+        <item android:id="@+id/option_size"
+              android:title="@string/option_size"
+              android:showAsAction="never" />
+
+        <item android:id="@+id/option_bread"
+              android:title="@string/option_bread"
+              android:showAsAction="never" />
+
+        <item android:id="@+id/option_cheese"
+              android:title="@string/option_cheese"
+              android:showAsAction="never" />
+
+        <item android:id="@+id/option_meat"
+              android:title="@string/option_meat"
+              android:showAsAction="never" />
+
+        <item android:id="@+id/option_veggies"
+              android:title="@string/option_veggies"
+              android:showAsAction="never" />
+
+        <item android:id="@+id/option_condiments"
+              android:title="@string/option_condiments"
+              android:showAsAction="never" />
+
+        <item android:id="@+id/option_extras"
+              android:title="@string/option_extras"
+              android:showAsAction="never" />
+
+        <item android:id="@+id/option_complete"
+              android:title="@string/option_complete"
+              android:showAsAction="never" />
+    </group>
+
+</menu>

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".NewSub8"
+                android:background="@drawable/background"
+                android:layout_marginTop="-17dp"
+                android:layout_marginBottom="-17dp"
+                android:layout_marginLeft="-17dp"
+                android:layout_marginRight="-17dp" >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:background="#000000"
+        android:padding="5dp"
+        android:adjustViewBounds="false"
+        android:layout_gravity="center|right"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/buttonEditSub"
+        android:layout_alignRight="@+id/scrollView" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/include"
+        android:layout_alignTop="@+id/buttonEditSub">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:id="@+id/textView"
+            android:padding="5dp" />
+    </ScrollView>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Edit"
+        android:id="@+id/buttonEditSub"
+        android:minWidth="150dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/scrollView"
+        android:maxHeight="50dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:id="@+id/buttonSaveSub"
+        android:minWidth="150dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/scrollView"
+        android:maxHeight="25dp" />
+
+    <include android:layout_width="fill_parent" layout="@layout/bottom_bar" android:id="@+id/include"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,8 @@
+Changes made by Josh: 6/29/13
+
+Added a menu to the main screen that displays the options "New Sub", "Saved Subs", "Share Sub", "Receive Sub", and "Share via Facebook"
+-This was implemented in the java file "Main.java" and by adding the resource layout file, "List_option.xml"
+
+Added two buttons: Save Sub and Return. These buttons don't have any functionality yet.
+The Return button is supposed to cause the app to return back to the menu screen, but I couldn't
+figure out how to do that.

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/relativeLayoutCalPrice"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ab_background_textured_bottom"
+        android:scaleType="fitXY"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:gravity="end"
+        android:layout_weight="5"
+        android:minHeight="25dp">
+    <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Calories: "
+            android:id="@+id/calTextView"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:textStyle="bold"
+            />
+
+    <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Price: "
+            android:id="@+id/priceTextView"
+            android:layout_alignTop="@+id/calTextView"
+            android:layout_alignBottom="@+id/calTextView"
+            android:layout_alignParentRight="true"
+            android:gravity="right"
+            android:textStyle="bold"/>
+</RelativeLayout>
